@@ -4,11 +4,11 @@ SSRR 3.2.2
 
 #### 1.安装
 
-    git clone https://github.com/ssrpanel/shadowsocksr.git
+    git clone https://github.com/garhing/shadowsocksr.git
 
 或者通过wget下载
 
-    wget https://github.com/ssrpanel/shadowsocksr/archive/master.zip && unzip master && mv shadowsocksr-master shadowsocksr
+    wget https://github.com/garhing/shadowsocksr/archive/master.zip && unzip master && mv shadowsocksr-master shadowsocksr
 
 
 
