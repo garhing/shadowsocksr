@@ -2,6 +2,18 @@ SSRR 3.2.2
 
 兼容SSRPanel的自改版SSR(R)后端，可兼容原版SS、SSR
 
+#### 0_1.安装基础命令工具
+
+    yum install -y wget vim unzip
+
+#### 0_2.同步系统时间
+
+    timedatectl set-timezone Asia/Shanghai
+
+#### 0_3.加速脚本
+
+    wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+
 #### 1.安装
 
     git clone https://github.com/garhing/shadowsocksr.git
@@ -47,6 +59,7 @@ SSRR 3.2.2
 
 #### 5.运行、关闭、看日志
 
+    cd shadowsocksr 
     sh logrun.sh
     sh stop.sh
     sh tail.sh
