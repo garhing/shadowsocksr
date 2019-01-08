@@ -9,6 +9,11 @@ SSRR 3.2.2
 #### 0_2.同步系统时间
 
     timedatectl set-timezone Asia/Shanghai
+    
+    sudo yum install -y ntp
+    sudo systemctl enable ntpd
+    sudo ntpdate -q 0.rhel.pool.ntp.org
+    sudo systemctl restart ntpd
 
 #### 0_3.加速脚本
 
