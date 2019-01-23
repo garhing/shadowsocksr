@@ -20,7 +20,7 @@
 		"method": "aes-128-ctr",
         "protocol": "auth_chain_a",
 		"protocol_param": "3#", 
-		"obfs": "tls1.2_ticket_auth", 
+		"obfs": "plain", 
 		"obfs_param": ""
     }
     }, // only works under multi-user mode
