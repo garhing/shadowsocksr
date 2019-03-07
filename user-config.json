@@ -23,7 +23,15 @@
         "obfs": "plain",
         "obfs_param": ""
     },
-    "8080": {
+    "19870": {
+        "passwd": "zxca",
+        "method": "aes-128-ctr",
+        "protocol": "auth_chain_a",
+        "protocol_param": "#",
+        "obfs": "plain",
+        "obfs_param": ""
+    },
+    "36900": {
         "passwd": "zxca",
         "method": "aes-128-ctr",
         "protocol": "auth_chain_a",
@@ -33,7 +41,7 @@
     }
 
 }, // only works under multi-user mode
-    "additional_ports_only" : false, // only works under multi-user mode
+    "additional_ports_only" : true, // only works under multi-user mode
     "timeout": 120,
     "udp_timeout": 60,
     "dns_ipv6": false,
