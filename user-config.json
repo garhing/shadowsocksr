@@ -15,15 +15,15 @@
     "speed_limit_per_user": 0,
 
     "additional_ports" : {
-    "8443": {
+    "443": {
         "passwd": "zxca",
         "method": "aes-128-ctr",
         "protocol": "auth_chain_a",
         "protocol_param": "#",
-        "obfs": "plain",
+        "obfs": "http_simple",
         "obfs_param": ""
     },
-    "19870": {
+    "25811": {
         "passwd": "zxca",
         "method": "aes-128-ctr",
         "protocol": "auth_chain_a",
@@ -36,8 +36,8 @@
         "method": "aes-128-ctr",
         "protocol": "auth_chain_a",
         "protocol_param": "#",
-        "obfs": "plain",
-        "obfs_param": ""
+        "obfs": "http_simple",
+        "obfs_param": "microsoft.com"
     }
 
 }, // only works under multi-user mode
