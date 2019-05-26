@@ -61,8 +61,11 @@ SSRR 3.2.2
     db 面板所在数据库
     node_id 节点ID，对应面板里的 节点列表 最左侧的id（请先将面板搭建好，然后创建一个节点，就有节点ID了）
     transfer_mul 节点流量计算比例，默认1.0，填1也可以，1表示：用了100M算100M，10表示用了100M算1000M，0.1表示用了100M算10M。
+    
+#### 5.正常执行后，运行 crontab -e 添加如下定时任务，"/root/shadowsocksr" 为 Shadowsocksr 安装目录
+    */1 * * * * /bin/bash /root/shadowsocksr/runssr.sh
 
-#### 5.运行、关闭、看日志
+#### 6.运行、关闭、看日志
 
     cd shadowsocksr 
     sh logrun.sh
