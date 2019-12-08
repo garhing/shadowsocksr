@@ -25,19 +25,19 @@
     },
     "25811": {
         "passwd": "zxca",
-        "method": "aes-128-ctr",
-        "protocol": "auth_chain_a",
+        "method": "aes-128-cfb",
+        "protocol": "auth_aes128_md5",
         "protocol_param": "#",
         "obfs": "plain",
         "obfs_param": ""
     },
-    "36900": {
-        "passwd": "zxca",
-        "method": "aes-128-ctr",
-        "protocol": "auth_chain_a",
+    "33433": {
+        "passwd": "just4pw",
+        "method": "chacha20-ietf",
+        "protocol": "auth_aes128_md5",
         "protocol_param": "#",
-        "obfs": "http_simple",
-        "obfs_param": "microsoft.com"
+        "obfs": "tls1.2_ticket_auth",
+        "obfs_param": "ajax.microsoft.com"
     }
 
 }, // only works under multi-user mode
